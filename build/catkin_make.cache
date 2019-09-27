@@ -1,0 +1,2 @@
+box_robot
+-DCATKIN_DEVEL_PREFIX=/home/muhammad/kuuka_ws/devel -DCMAKE_INSTALL_PREFIX=/home/muhammad/kuuka_ws/install -G Unix Makefiles

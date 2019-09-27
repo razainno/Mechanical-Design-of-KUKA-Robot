@@ -1,0 +1,231 @@
+<robot name="pi_robot">
+<!-- * * * Link Definitions * * * -->
+
+ 	<!-- * * * Link Definitions * * * -->
+
+ 	<link name="base_cylinder1">
+		<visual>
+		    <origin xyz="0 0 0 " rpy="0 0 0"/>
+			<geometry>
+				<cylinder radius="0.4" length="0.15"/>
+			</geometry>
+			<material name="Cyan6">
+	       		<color rgba="0 0.8 0.9 0.7"/>
+	     	</material>
+		</visual>
+<collision>
+			<geometry>
+				<box size="1 1.5 1"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="1.0" />
+			<inertia ixx="0.0741666666667" ixy="0.0" ixz="0.0" iyy="0.0585416666667" iyz="0.0" izz="0.0260416666667"/>
+		</inertial>	
+	</link>
+<joint name="joint1" type="fixed">
+    	<parent link="base_cylinder1"/>
+    	<child link="base_cylinder2"/>
+    	<origin xyz="0 0 0" rpy="0 0 0"/>
+	</joint>
+ 
+<link name="base_cylinder2">
+		<visual>
+		    <origin xyz="0 0 0.15" rpy="0 0 0"/>
+			<geometry>
+				<cylinder radius="0.3" length="0.15"/>
+			</geometry>
+			<material name="Cyan1">
+	       		<color rgba="0 0.8 0.9 0.7"/>
+	     	</material>
+		</visual>	
+		<collision>
+			<geometry>
+				<box size="1 1.5 1"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="1.0" />
+			<inertia ixx="0.0741666666667" ixy="0.0" ixz="0.0" iyy="0.0585416666667" iyz="0.0" izz="0.0260416666667"/>
+		</inertial>	
+</link>
+<joint name="joint2" type="fixed">
+    	<parent link="base_cylinder2"/>
+    	<child link="base_box1"/>
+    	<origin xyz="0 0 0" rpy="0 0 0"/>
+	</joint>
+ 
+<link name="base_box1">
+		<visual>
+		    <origin xyz="0 -0.02 0.35" rpy="0 0 0"/>
+			<geometry>
+				<box size="0.25 0.5 0.25" />
+			</geometry>
+			<material name="Cyan1">
+	       		<color rgba="0 0.8 0.9 0.7"/>
+	     	</material>
+		</visual>
+		<collision>
+			<geometry>
+				<box size="1 1.5 1"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="1.0" />
+			<inertia ixx="0.0741666666667" ixy="0.0" ixz="0.0" iyy="0.0585416666667" iyz="0.0" izz="0.0260416666667"/>
+		</inertial>		
+	</link>
+<joint name="joint3" type="fixed">
+    	<parent link="base_box1"/>
+    	<child link="base_cylinder3"/>
+    	<origin xyz="0 0 0" rpy="0 0 0"/>
+	</joint>
+<link name="base_cylinder3">
+		<visual>
+		    <origin xyz="0 -0.20 0.400" rpy="0 1.57 0"/>
+			<geometry>
+				<cylinder radius="0.15" length="0.15"/>
+			</geometry>
+			<material name="Cyan1">
+	       		<color rgba="0 0.8 0.9 0.7"/>
+	     	</material>
+		</visual>	
+		<collision>
+			<geometry>
+				<box size="1 1.5 1"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="1.0" />
+			<inertia ixx="0.0741666666667" ixy="0.0" ixz="0.0" iyy="0.0585416666667" iyz="0.0" izz="0.0260416666667"/>
+		</inertial>	
+	</link>
+<joint name="joint4" type="fixed">
+    	<parent link="base_cylinder3"/>
+    	<child link="base_box2"/>
+    	<origin xyz="0 0 0" rpy="0 0 0"/>
+	</joint>
+ 
+<link name="base_box2">
+		<visual>
+		    <origin xyz="0 -0.17 0.8" rpy="-0.20 0 0"/>
+			<geometry>
+				<box size="0.15 0.15 0.9" />
+			</geometry>
+			<material name="Cyan1">
+	       		<color rgba="0 0.8 0.9 0.7"/>
+	     	</material>
+		</visual>	
+		<collision>
+			<geometry>
+				<box size="1 1.5 1"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="1.0" />
+			<inertia ixx="0.0741666666667" ixy="0.0" ixz="0.0" iyy="0.0585416666667" iyz="0.0" izz="0.0260416666667"/>
+		</inertial>	
+	</link>
+<joint name="joint5" type="fixed">
+    	<parent link="base_box2"/>
+    	<child link="base_cylinder4"/>
+    	<origin xyz="0 0 0" rpy="0 0 0"/>
+	</joint>
+
+ <link name="base_cylinder4">
+		<visual>
+		    <origin xyz="0 -0.18 1.30" rpy="1.27 0 0"/>
+			<geometry>
+				<cylinder radius="0.07" length="0.4"/>
+			</geometry>
+			<material name="Cyan1">
+	       		<color rgba="0 0.8 0.9 0.7"/>
+	     	</material>
+		</visual>	
+		<collision>
+			<geometry>
+				<box size="1 1.5 1"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="1.0" />
+			<inertia ixx="0.0741666666667" ixy="0.0" ixz="0.0" iyy="0.0585416666667" iyz="0.0" izz="0.0260416666667"/>
+		</inertial>	
+</link>
+<joint name="joint6" type="fixed">
+    	<parent link="base_cylinder4"/>
+    	<child link="base_cylinder5"/>
+    	<origin xyz="0 0 0" rpy="0 0 0"/>
+	</joint>
+<link name="base_cylinder5">
+		<visual>
+		    <origin xyz="0 -0.40 1.37" rpy="1.27 0 0"/>
+			<geometry>
+				<cylinder radius="0.075" length="0.1"/>
+			</geometry>
+			<material name="Cyan1">
+	       		<color rgba="0 0.8 0.9 0.7"/>
+	     	</material>
+		</visual>	
+		<collision>
+			<geometry>
+				<box size="1 1.5 1"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="1.0" />
+			<inertia ixx="0.0741666666667" ixy="0.0" ixz="0.0" iyy="0.0585416666667" iyz="0.0" izz="0.0260416666667"/>
+		</inertial>	
+</link>
+<joint name="joint7" type="fixed">
+    	<parent link="base_cylinder5"/>
+    	<child link="base_box3"/>
+    	<origin xyz="0 0 0" rpy="0 0 0"/>
+	</joint>
+<link name="base_box3">
+		<visual>
+		    <origin xyz="0 -0.50 1.40" rpy="-0.3 0 0"/>
+			<geometry>
+				<box size="0.12 0.2 0.1" />
+			</geometry>
+			<material name="Cyan1">
+	       		<color rgba="0 0.8 0.9 0.7"/>
+	     	</material>
+		</visual>	
+		<collision>
+			<geometry>
+				<box size="1 1.5 1"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="1.0" />
+			<inertia ixx="0.0741666666667" ixy="0.0" ixz="0.0" iyy="0.0585416666667" iyz="0.0" izz="0.0260416666667"/>
+		</inertial>	
+	</link>
+<joint name="joint8" type="fixed">
+    	<parent link="base_box3"/>
+    	<child link="base_cylinder6"/>
+    	<origin xyz="0 0 0" rpy="0 0 0"/>
+	</joint>
+<link name="base_cylinder6">
+		<visual>
+		    <origin xyz="0 -0.60 1.42" rpy="1.27 0 0"/>
+			<geometry>
+				<cylinder radius="0.055" length="0.1"/>
+			</geometry>
+			<material name="Cyan1">
+	       		<color rgba="0 0.8 0.9 0.7"/>
+	     	</material>
+		</visual>	
+		<collision>
+			<geometry>
+				<box size="1 1.5 1"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="1.0" />
+			<inertia ixx="0.0741666666667" ixy="0.0" ixz="0.0" iyy="0.0585416666667" iyz="0.0" izz="0.0260416666667"/>
+		</inertial>	
+</link>
+
+</robot>

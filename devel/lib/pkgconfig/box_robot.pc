@@ -1,0 +1,8 @@
+prefix=/home/muhammad/kuuka_ws/devel
+
+Name: box_robot
+Description: Description of box_robot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/muhammad/kuuka_ws/devel/lib 
+Requires: 
