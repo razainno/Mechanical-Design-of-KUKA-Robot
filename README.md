@@ -1,7 +1,7 @@
 
 Package Name: box_robot .
 Launch folder: robot.launch, gazebo.launch
-Urdf folder: robot.urdf, gazebo.urdf, robot_E1.xacro
+Urdf folder: robot.urdf, gazebo.urdf,
 
 ## Quick Start
 To run robot in rviz with urdf: 
@@ -10,6 +10,6 @@ To run robot in rviz with urdf:
 
 To run robot in Gazebo: 
 	
-	roslaunch box_robot robot.launch
+	roslaunch box_robot gazebo.launch
 
 
