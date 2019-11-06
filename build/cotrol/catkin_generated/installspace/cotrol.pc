@@ -1,0 +1,8 @@
+prefix=/home/muhammad/kuka/install
+
+Name: cotrol
+Description: Description of cotrol
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/muhammad/kuka/install/lib 
+Requires: 
