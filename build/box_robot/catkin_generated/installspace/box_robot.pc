@@ -1,8 +1,8 @@
-prefix=/home/muhammad/kuka/install
+prefix=/home/muhammad/kuka_robot_urdf/install
 
 Name: box_robot
 Description: Description of box_robot
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/muhammad/kuka/install/lib 
+Libs: -L/home/muhammad/kuka_robot_urdf/install/lib 
 Requires: 

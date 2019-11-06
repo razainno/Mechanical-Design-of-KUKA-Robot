@@ -1,8 +1,8 @@
-prefix=/home/muhammad/kuka/devel
+prefix=/home/muhammad/kuka_robot_urdf/devel
 
 Name: rrbot_control
 Description: Description of rrbot_control
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/muhammad/kuka/devel/lib 
+Libs: -L/home/muhammad/kuka_robot_urdf/devel/lib 
 Requires: 
