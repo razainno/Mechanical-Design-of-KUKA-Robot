@@ -1,8 +1,8 @@
-# Install script for directory: /home/muhammad/kuka/src/box_robot
+# Install script for directory: /home/muhammad/kuka_robot_urdf/src/box_robot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/muhammad/kuka/install")
+  set(CMAKE_INSTALL_PREFIX "/home/muhammad/kuka_robot_urdf/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/muhammad/kuka/build/box_robot/catkin_generated/installspace/box_robot.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/muhammad/kuka_robot_urdf/build/box_robot/catkin_generated/installspace/box_robot.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/box_robot/cmake" TYPE FILE FILES
-    "/home/muhammad/kuka/build/box_robot/catkin_generated/installspace/box_robotConfig.cmake"
-    "/home/muhammad/kuka/build/box_robot/catkin_generated/installspace/box_robotConfig-version.cmake"
+    "/home/muhammad/kuka_robot_urdf/build/box_robot/catkin_generated/installspace/box_robotConfig.cmake"
+    "/home/muhammad/kuka_robot_urdf/build/box_robot/catkin_generated/installspace/box_robotConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/box_robot" TYPE FILE FILES "/home/muhammad/kuka/src/box_robot/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/box_robot" TYPE FILE FILES "/home/muhammad/kuka_robot_urdf/src/box_robot/package.xml")
 endif()
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/muhammad/kuka/src
+CMAKE_SOURCE_DIR = /home/muhammad/kuka_robot_urdf/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/muhammad/kuka/build
+CMAKE_BINARY_DIR = /home/muhammad/kuka_robot_urdf/build
 
 # Utility rule file for std_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ box_robot/CMakeFiles/std_msgs_generate_messages_eus.dir/build: std_msgs_generate
 .PHONY : box_robot/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 
 box_robot/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
-	cd /home/muhammad/kuka/build/box_robot && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/muhammad/kuka_robot_urdf/build/box_robot && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : box_robot/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 box_robot/CMakeFiles/std_msgs_generate_messages_eus.dir/depend:
-	cd /home/muhammad/kuka/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/muhammad/kuka/src /home/muhammad/kuka/src/box_robot /home/muhammad/kuka/build /home/muhammad/kuka/build/box_robot /home/muhammad/kuka/build/box_robot/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/muhammad/kuka_robot_urdf/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/muhammad/kuka_robot_urdf/src /home/muhammad/kuka_robot_urdf/src/box_robot /home/muhammad/kuka_robot_urdf/build /home/muhammad/kuka_robot_urdf/build/box_robot /home/muhammad/kuka_robot_urdf/build/box_robot/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : box_robot/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 

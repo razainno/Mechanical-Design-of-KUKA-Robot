@@ -1,2 +1,2 @@
-box_robot:rrbot_control
+box_robot:rrbot_control:spotmini
 -DCATKIN_DEVEL_PREFIX=/home/muhammad/kuka_robot_urdf/devel -DCMAKE_INSTALL_PREFIX=/home/muhammad/kuka_robot_urdf/install -G Unix Makefiles

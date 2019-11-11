@@ -1,8 +1,8 @@
-# Install script for directory: /home/muhammad/kuka/src
+# Install script for directory: /home/muhammad/kuka_robot_urdf/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/muhammad/kuka/install")
+  set(CMAKE_INSTALL_PREFIX "/home/muhammad/kuka_robot_urdf/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,90 +49,91 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/muhammad/kuka/install/_setup_util.py")
+   "/home/muhammad/kuka_robot_urdf/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/muhammad/kuka/install" TYPE PROGRAM FILES "/home/muhammad/kuka/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/muhammad/kuka_robot_urdf/install" TYPE PROGRAM FILES "/home/muhammad/kuka_robot_urdf/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/muhammad/kuka/install/env.sh")
+   "/home/muhammad/kuka_robot_urdf/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/muhammad/kuka/install" TYPE PROGRAM FILES "/home/muhammad/kuka/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/muhammad/kuka_robot_urdf/install" TYPE PROGRAM FILES "/home/muhammad/kuka_robot_urdf/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/muhammad/kuka/install/setup.bash;/home/muhammad/kuka/install/local_setup.bash")
+   "/home/muhammad/kuka_robot_urdf/install/setup.bash;/home/muhammad/kuka_robot_urdf/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/muhammad/kuka/install" TYPE FILE FILES
-    "/home/muhammad/kuka/build/catkin_generated/installspace/setup.bash"
-    "/home/muhammad/kuka/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/muhammad/kuka_robot_urdf/install" TYPE FILE FILES
+    "/home/muhammad/kuka_robot_urdf/build/catkin_generated/installspace/setup.bash"
+    "/home/muhammad/kuka_robot_urdf/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/muhammad/kuka/install/setup.sh;/home/muhammad/kuka/install/local_setup.sh")
+   "/home/muhammad/kuka_robot_urdf/install/setup.sh;/home/muhammad/kuka_robot_urdf/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/muhammad/kuka/install" TYPE FILE FILES
-    "/home/muhammad/kuka/build/catkin_generated/installspace/setup.sh"
-    "/home/muhammad/kuka/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/muhammad/kuka_robot_urdf/install" TYPE FILE FILES
+    "/home/muhammad/kuka_robot_urdf/build/catkin_generated/installspace/setup.sh"
+    "/home/muhammad/kuka_robot_urdf/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/muhammad/kuka/install/setup.zsh;/home/muhammad/kuka/install/local_setup.zsh")
+   "/home/muhammad/kuka_robot_urdf/install/setup.zsh;/home/muhammad/kuka_robot_urdf/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/muhammad/kuka/install" TYPE FILE FILES
-    "/home/muhammad/kuka/build/catkin_generated/installspace/setup.zsh"
-    "/home/muhammad/kuka/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/muhammad/kuka_robot_urdf/install" TYPE FILE FILES
+    "/home/muhammad/kuka_robot_urdf/build/catkin_generated/installspace/setup.zsh"
+    "/home/muhammad/kuka_robot_urdf/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/muhammad/kuka/install/.rosinstall")
+   "/home/muhammad/kuka_robot_urdf/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/muhammad/kuka/install" TYPE FILE FILES "/home/muhammad/kuka/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/muhammad/kuka_robot_urdf/install" TYPE FILE FILES "/home/muhammad/kuka_robot_urdf/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/muhammad/kuka/build/gtest/cmake_install.cmake")
-  include("/home/muhammad/kuka/build/box_robot/cmake_install.cmake")
-  include("/home/muhammad/kuka/build/rrbot_control/cmake_install.cmake")
+  include("/home/muhammad/kuka_robot_urdf/build/gtest/cmake_install.cmake")
+  include("/home/muhammad/kuka_robot_urdf/build/spotmini/cmake_install.cmake")
+  include("/home/muhammad/kuka_robot_urdf/build/box_robot/cmake_install.cmake")
+  include("/home/muhammad/kuka_robot_urdf/build/rrbot_control/cmake_install.cmake")
 
 endif()
 
@@ -144,5 +145,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/muhammad/kuka/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/muhammad/kuka_robot_urdf/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

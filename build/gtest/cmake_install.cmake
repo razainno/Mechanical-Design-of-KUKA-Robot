@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/muhammad/kuka/install")
+  set(CMAKE_INSTALL_PREFIX "/home/muhammad/kuka_robot_urdf/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/muhammad/kuka/build/gtest/googlemock/cmake_install.cmake")
+  include("/home/muhammad/kuka_robot_urdf/build/gtest/googlemock/cmake_install.cmake")
 
 endif()
 

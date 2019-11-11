@@ -11,5 +11,5 @@ export CMAKE_PREFIX_PATH="/home/muhammad/kuka_robot_urdf/devel:$CMAKE_PREFIX_PAT
 export LD_LIBRARY_PATH="/home/muhammad/kuka_robot_urdf/devel/lib:$LD_LIBRARY_PATH"
 export PKG_CONFIG_PATH="/home/muhammad/kuka_robot_urdf/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/muhammad/kuka_robot_urdf/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/muhammad/kuka_robot_urdf/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/muhammad/kuka/src:/home/muhammad/kuka_robot_urdf/src:$ROS_PACKAGE_PATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/muhammad/kuka_robot_urdf/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/muhammad/kuka_robot_urdf/src:$ROS_PACKAGE_PATH"

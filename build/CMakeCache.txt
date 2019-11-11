@@ -285,12 +285,6 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
 //Value Computed by CMake
-ascontrol_BINARY_DIR:STATIC=/home/muhammad/kuka/build/ascontrol
-
-//Value Computed by CMake
-ascontrol_SOURCE_DIR:STATIC=/home/muhammad/kuka/src/ascontrol
-
-//Value Computed by CMake
 box_robot_BINARY_DIR:STATIC=/home/muhammad/kuka_robot_urdf/build/box_robot
 
 //Value Computed by CMake
@@ -298,12 +292,6 @@ box_robot_SOURCE_DIR:STATIC=/home/muhammad/kuka_robot_urdf/src/box_robot
 
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
-
-//Value Computed by CMake
-cotrol_BINARY_DIR:STATIC=/home/muhammad/kuka/build/cotrol
-
-//Value Computed by CMake
-cotrol_SOURCE_DIR:STATIC=/home/muhammad/kuka/src/cotrol
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
@@ -363,18 +351,6 @@ lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
 
-//Value Computed by CMake
-myrobot_control_BINARY_DIR:STATIC=/home/muhammad/kuka/build/myrobot_control
-
-//Value Computed by CMake
-myrobot_control_SOURCE_DIR:STATIC=/home/muhammad/kuka/src/myrobot_control
-
-//Value Computed by CMake
-robot_control_BINARY_DIR:STATIC=/home/muhammad/kuka/build/robot_control
-
-//Value Computed by CMake
-robot_control_SOURCE_DIR:STATIC=/home/muhammad/kuka/src/robot_control
-
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
 
@@ -402,6 +378,12 @@ rrbot_control_BINARY_DIR:STATIC=/home/muhammad/kuka_robot_urdf/build/rrbot_contr
 //Value Computed by CMake
 rrbot_control_SOURCE_DIR:STATIC=/home/muhammad/kuka_robot_urdf/src/rrbot_control
 
+//Value Computed by CMake
+spotmini_BINARY_DIR:STATIC=/home/muhammad/kuka_robot_urdf/build/spotmini
+
+//Value Computed by CMake
+spotmini_SOURCE_DIR:STATIC=/home/muhammad/kuka_robot_urdf/src/spotmini
+
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/melodic/share/std_msgs/cmake
 
@@ -415,7 +397,7 @@ xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
 
 //catkin environment
 CATKIN_ENV:INTERNAL=/home/muhammad/kuka_robot_urdf/build/catkin_generated/env_cached.sh
-CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/muhammad/kuka/build/test_results
+CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/muhammad/kuka_robot_urdf/build/test_results
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -498,7 +480,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/muhammad/kuka/src
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/muhammad/kuka_robot_urdf/src
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -518,7 +500,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
