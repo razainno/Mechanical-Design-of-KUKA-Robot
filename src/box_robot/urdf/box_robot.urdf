@@ -18,7 +18,7 @@
 			</geometry>
 		</collision>
 		<inertial>
-			<mass value="50.0" />
+			<mass value="300.0" />
 			 <origin xyz="0 0 0.075 " rpy="0 0 0"/>
 			<inertia ixx="20.741666666667" ixy="0.0" ixz="0.0" iyy="20" iyz="0.0" izz="20"/>
 		</inertial>		
@@ -39,7 +39,7 @@
 			</geometry>
 		</collision>
 		<inertial>
-			<mass value="1.0" />
+			<mass value="10.0" />
 			<origin xyz="0 0 0" rpy="0 0 0"/>
 			<inertia ixx="0.741666666667" ixy="0.0" ixz="0.0" iyy="0.0585416666667" iyz="0.0" izz="0.0260416666667"/>
 		</inertial>		
@@ -71,7 +71,7 @@
 			</geometry>
 		</collision>
 		<inertial>
-			<mass value="1.0" />
+			<mass value="10.0" />
 			<origin xyz="0 0 0" rpy="0 0 0"/>
 			<inertia ixx="0.0741666666667" ixy="0.0" ixz="0.0" iyy="0.0585416666667" iyz="0.0" izz="0.0260416666667"/>
 		</inertial>	
@@ -82,7 +82,7 @@
     	<parent link="base_cylinder2"/>
     	<child link="base_box1"/>
     	<origin xyz="0 -0.02 0.20" rpy="0 0 0"/>
-       	<limit lower="-1.57" upper="1.57" effort="100" velocity="30"/>
+       	<limit lower="-1.57" upper="1.57" effort="100" velocity="80"/>
         <axis xyz="0 0 1"/>
 	</joint>
 
@@ -102,7 +102,7 @@
 			</geometry>
 		</collision>
 		<inertial>
-			<mass value="1.0" />
+			<mass value="10.0" />
 			<origin xyz="0 0 0.4" rpy="0 0 0"/>
 			<inertia ixx="0.0741666666667" ixy="0.0" ixz="0.0" iyy="0.0585416666667" iyz="0.0" izz="0.0260416666667"/>
 		</inertial>	
@@ -112,7 +112,7 @@
     	<parent link="base_box1"/>
     	<child link="base_box2"/>
     	<origin xyz="0 0 0" rpy="0 0 0"/>
-       	<limit lower="-1.57" upper="1.57" effort="100" velocity="50"/>
+       	<limit lower="-1.57" upper="1.57" effort="100" velocity="30"/>
         <axis xyz="1 0 0"/>
 	</joint>
 
@@ -131,7 +131,7 @@
 			</geometry>
 		</collision>
 		<inertial>
-			<mass value="1.0" />
+			<mass value="10.0" />
 			<origin xyz="0 0.325 0" rpy="1.57 0 0"/>
 			<inertia ixx="0.0741666666667" ixy="0.0" ixz="0.0" iyy="0.0585416666667" iyz="0.0" izz="0.0260416666667"/>
 		</inertial>	
@@ -141,7 +141,7 @@
     	<parent link="base_box2"/>
     	<child link="base_box3"/>
     	<origin xyz="0 0 0.8" rpy="0 0 0"/>
-       	<limit lower="-1.57" upper="1.57" effort="100" velocity="100"/>
+       	<limit lower="-1.57" upper="1.57" effort="100" velocity="50"/>
         <axis xyz="1 0 0"/>
 	</joint>
 
@@ -160,7 +160,7 @@
 			</geometry>
 		</collision>
 		<inertial>
-			<mass value="1.0" />
+			<mass value="5.0" />
 			<origin xyz="0 0 0" rpy="1.57 0 0"/>
 			<inertia ixx="0.0741666666667" ixy="0.0" ixz="0.0" iyy="0.0585416666667" iyz="0.0" izz="0.0260416666667"/>
 		</inertial>	
@@ -169,7 +169,7 @@
     	<parent link="base_box3"/>
     	<child link="base_cylinder3"/>
     	<origin xyz="0 0.7 0" rpy="0 0 0"/>
-       	<limit lower="-1.57" upper="1.57" effort="100" velocity="50"/>
+       	<limit lower="-1.57" upper="1.57" effort="100" velocity="30"/>
         <axis xyz="0 1 0"/>
 		</joint>
 		<link name="base_box4">
@@ -196,7 +196,7 @@
     	<parent link="base_cylinder3"/>
     	<child link="base_box4"/>
     	<origin xyz="0 0 0" rpy="0 0 0"/>
-       	<limit lower="-1.57" upper="1.57" effort="100" velocity="50"/>
+       	<limit lower="-1.57" upper="1.57" effort="100" velocity="30"/>
         <axis xyz="1 0 0"/>
 		</joint>
 		
