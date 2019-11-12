@@ -10,5 +10,5 @@
         source devel/setup.bash 
         roslaunch box_robot gazebo1.launch 
 ## Video link is given below
-video link
+https://www.youtube.com/watch?v=P-RB-ZMzhpE
 
