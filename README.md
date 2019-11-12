@@ -10,5 +10,7 @@
         source devel/setup.bash 
         roslaunch box_robot gazebo1.launch 
 
+![](kuka_robot.png)
 
-
+#video
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/P-RB-ZMzhpE/0.jpg)](http://www.youtube.com/watch?v=P-RB-ZMzhpE)
