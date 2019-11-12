@@ -13,4 +13,7 @@
 ![](kuka_robot.png)
 
 #video
+
+for video click on the given link beow
+
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/P-RB-ZMzhpE/0.jpg)](http://www.youtube.com/watch?v=P-RB-ZMzhpE)
