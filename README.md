@@ -19,6 +19,7 @@
         rosrun rrbot_control mains.py
 
 
+<<<<<<< HEAD
 ## Robot display with Rviz 
 ![](kuka_robot.png.png)
 
@@ -28,4 +29,10 @@
 
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/IKFGcrc6w74/0.jpg)](http://www.youtube.com/watch?v=d_uQJWerai4)
+=======
+
+
+## The Link of the video is here
+[url=https://www.youtube.com/watch?v=d_uQJWerai4]video link[/url]
+>>>>>>> 7d32bd5c1f540ae7f1a664cad652f5528e2c7f99
 
