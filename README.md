@@ -19,3 +19,13 @@
         rosrun rrbot_control mains.py
 
 
+## Robot display with Rviz 
+![](kuka_robot.png.png)
+
+
+
+## video link is given below
+
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/IKFGcrc6w74/0.jpg)](http://www.youtube.com/watch?v=d_uQJWerai4)
+
