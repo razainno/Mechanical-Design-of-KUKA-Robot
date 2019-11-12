@@ -28,7 +28,7 @@
 ## video link is given below
 
 
-(http://img.youtube.com/vi/IKFGcrc6w74/0.jpg)](http://www.youtube.com/watch?v=d_uQJWerai4)
+(http://www.youtube.com/watch?v=d_uQJWerai4)
 =======
 
 
