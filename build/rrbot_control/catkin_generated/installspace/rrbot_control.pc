@@ -1,8 +1,0 @@
-prefix=/home/muhammad/kuka_robot_urdf/install
-
-Name: rrbot_control
-Description: Description of rrbot_control
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/muhammad/kuka_robot_urdf/install/lib 
-Requires: 
