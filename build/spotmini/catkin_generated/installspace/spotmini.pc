@@ -1,8 +1,0 @@
-prefix=/home/muhammad/kuka_robot_urdf/install
-
-Name: spotmini
-Description: Description of spotmini
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/muhammad/kuka_robot_urdf/install/lib 
-Requires: 
