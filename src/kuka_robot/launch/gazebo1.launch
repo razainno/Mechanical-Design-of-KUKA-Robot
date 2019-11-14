@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<launch>
+
+	<include file="$(find gazebo_ros)/launch/empty_world.launch">
+	</include>
+
+  <!-- Robot model -->
+       <param name="robot_description" textfile="$(find kuka_robot)/urdf/kuka.urdf"/>
+	
+
+
+	<node 
+			name="spawn_robot" 
+			pkg="gazebo_ros" 
+			type="spawn_model" 
+			respawn="false"
+			args="-urdf -model myoboat -param robot_description -z 1">
+	</node>
+
+
+	<rosparam command="load" file="$(find kuka_robot)/control/control.yaml"/>
+	
+	<node name="contoller_spawner"  pkg="controller_manager"  type="spawner"  respawn="false"
+    	output="screen"  ns="/MYROBOT"   
+		 
+
+
+         	args="	joint1_position_controller  joint2_position_controller  joint3_position_controller
+			 joint4_position_controller joint5_position_controller" />
+
+
+		  <!-- args="joint1_position_controller joint2_position_controller " /> -->
+		   
+
+ 
+
+
+    
+			
+
+
+</launch>
