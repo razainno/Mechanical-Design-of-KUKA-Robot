@@ -8,7 +8,7 @@
         cd kuka_robot_urdf/
         catkin_make
         source devel/setup.bash 
-        roslaunch box_robot gazebo1.launch 
+        roslaunch kuka_robot gazebo1.launch 
 
 ![](kuka_robot.png)
 
