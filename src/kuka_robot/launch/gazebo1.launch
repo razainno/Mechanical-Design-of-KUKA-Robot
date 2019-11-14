@@ -5,7 +5,7 @@
 	</include>
 
   <!-- Robot model -->
-       <param name="robot_description" textfile="$(find box_robot)/urdf/box_robot.urdf"/>
+       <param name="robot_description" textfile="$(find kuka_robot)/urdf/kuka.urdf"/>
 	
 
 
@@ -18,7 +18,7 @@
 	</node>
 
 
-	<rosparam command="load" file="$(find box_robot)/control/control.yaml"/>
+	<rosparam command="load" file="$(find kuka_robot)/control/control.yaml"/>
 	
 	<node name="contoller_spawner"  pkg="controller_manager"  type="spawner"  respawn="false"
     	output="screen"  ns="/MYROBOT"   
