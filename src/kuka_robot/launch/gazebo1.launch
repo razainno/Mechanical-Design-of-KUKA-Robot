@@ -2,7 +2,9 @@
 <launch>
 
 	<include file="$(find gazebo_ros)/launch/empty_world.launch">
+
 	<arg name="world_name" value="$(find kuka_robot)/launch/my_world.world"/>
+
 	</include>
 
   <!-- Robot model -->
@@ -33,8 +35,10 @@
 		  <!-- args="joint1_position_controller joint2_position_controller " /> -->
 		   
 
+
  <node name="rr_talker" pkg="kuka_control" type="mains.py" />
  <node name="image_listener" pkg="kuka_control" type="camera.py" />
 
     
+
 </launch>

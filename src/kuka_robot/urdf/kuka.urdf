@@ -4,7 +4,6 @@
  	<!-- * * * Link Definitions * * * -->
 
 
-
  	<link name="base_cylinder1">
 		<visual>
 		    <origin xyz="0 0 0.075 " rpy="0 0 0"/>
@@ -80,7 +79,9 @@
 	</link>
 
  
+
 <joint name= "base_twist" type="revolute">
+
     	<parent link="base_cylinder2"/>
     	<child link="base_box1"/>
     	<origin xyz="0 -0.02 0.20" rpy="0 0 0"/>
@@ -110,7 +111,10 @@
 		</inertial>	
 	</link>
 
+
 <joint name= "base_leg" type="revolute">
+
+
     	<parent link="base_box1"/>
     	<child link="base_box2"/>
     	<origin xyz="0 0 0" rpy="0 0 0"/>
@@ -140,6 +144,8 @@
 	</link>
 
 <joint name= "leg_to_arm" type="revolute">
+=======
+
     	<parent link="base_box2"/>
     	<child link="base_box3"/>
     	<origin xyz="0 0 0.8" rpy="0 0 0"/>
@@ -167,7 +173,9 @@
 			<inertia ixx="0.0741666666667" ixy="0.0" ixz="0.0" iyy="0.0585416666667" iyz="0.0" izz="0.0260416666667"/>
 		</inertial>	
 </link>
+
 <joint name= "arm_twist" type="revolute">
+
     	<parent link="base_box3"/>
     	<child link="base_cylinder3"/>
     	<origin xyz="0 0.7 0" rpy="0 0 0"/>
@@ -194,7 +202,9 @@
 			<inertia ixx="0.0741666666667" ixy="0.0" ixz="0.0" iyy="0.0585416666667" iyz="0.0" izz="0.0260416666667"/>
 		</inertial>		
 	</link>
+
 	<joint name= "tool" type="revolute">
+
     	<parent link="base_cylinder3"/>
     	<child link="base_box4"/>
     	<origin xyz="0 0 0" rpy="0 0 0"/>
@@ -222,13 +232,16 @@
 			<inertia ixx="0.0741666666667" ixy="0.0" ixz="0.0" iyy="0.0585416666667" iyz="0.0" izz="0.0260416666667"/>
 		</inertial>	
 </link>
+
 <joint name= "joint7" type="fixed">
+
     	<parent link="base_box4"/>
     	<child link="base_cylinder4"/>
     	<origin xyz="0 0 0" rpy="0 0 0"/>
        	<limit lower="-1.57" upper="1.57" effort="10" velocity="3"/>
         <axis xyz="1 0 0"/>
 		</joint>
+
 
 
 <link name="camera">
@@ -298,6 +311,7 @@
   </gazebo>
 
 
+
 <gazebo>
   <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
     <robotNamespace>/MYROBOT</robotNamespace>
@@ -312,7 +326,9 @@
 
  
 
+
  <transmission name="t_2">
+
   <type>transmission_interface/SimpleTransmission</type>
   <joint name="base_twist">
     <hardwareInterface>EffortJointInterface</hardwareInterface>

@@ -25,7 +25,9 @@ def talker():
         pub4.publish(position)
         pub5.publish(position)
         rate.sleep()
+
         i +=0.1
+
  
 if __name__ == '__main__':
     try:
