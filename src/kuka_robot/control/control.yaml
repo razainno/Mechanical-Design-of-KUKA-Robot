@@ -28,7 +28,7 @@ MYROBOT:
     type: effort_controllers/JointPositionController
     joint: tool
     pid: {p: 1000, i: 0.1, d: 1.0}
- 
+
 
 
 
