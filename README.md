@@ -27,7 +27,7 @@
 
 
 
-## unit Test for kuka robor
+## unit Test for kuka robot
 
 This unit test is to  check the correctness of forward kinamatics  for kuka robot.
 
