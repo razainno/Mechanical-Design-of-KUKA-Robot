@@ -1,13 +1,12 @@
 
 
-
-
 ## Quick Start to launch in gazebo 
 1)  First open the Terminal and apply this command
         git clone https://github.com/razainno/kuka_robot_urdf.git
         cd kuka_robot_urdf/
         catkin_make
         source devel/setup.bash 
+
         roslaunch kuka_robot gazebo1.launch 
 
 ## launch of the controller to see the movement of the Robot
@@ -22,6 +21,9 @@
 
 ## Robot display with Rviz 
 ![](kuka_robot.png)
+
+
+
 
 
 
@@ -45,6 +47,9 @@ cd kuka_robot_urdf/
         roslaunch kuka_robot gazebo1.launch
 open new terminal and run the publisher using this command
         rosrun kuka_robot joint_space_subscriber.py
+
+
+
 
 
 
