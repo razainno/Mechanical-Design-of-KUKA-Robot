@@ -42,6 +42,10 @@ cd kuka_robot_urdf/
         catkin_make
         source devel/setup.bash
         rosrun kuka_test integ.py
+        roslaunch kuka_robot gazebo1.launch
+open new terminal and run the publisher using this command
+        rosrun kuka_robot joint_space_subscriber.py
+
 
 
 
