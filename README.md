@@ -1,7 +1,16 @@
+<p align="center">
+    <img src="https://raw.githubusercontent.com/badges/shields/master/frontend/images/logo.svg?sanitize=true"
+        height="130">
+</p>
+<p align="center">
+    <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+        <img src="https://img.shields.io/github/contributors/badges/shields" /></a>
 
-![GitHub repo size](https://img.shields.io/github/repo-sizerazainno/kuka_robot_urdf/ ![GitHub followers](https://img.shields.io/github/razainno?tab=followers)
 
 [![welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://travis-ci.org/github.com/razainno/kuka_robot_urdf)   [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+[![forthebadge programming-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 ## Quick Start to launch in gazebo 
 1)  First open the Terminal and apply this command
         git clone https://github.com/razainno/kuka_robot_urdf.git
