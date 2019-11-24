@@ -3,10 +3,6 @@
         height="130">
 </p>
 
-    <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
-        <img src="https://img.shields.io/github/contributors/badges/shields" /></a>
-
-
 [![welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://travis-ci.org/github.com/razainno/kuka_robot_urdf)   [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 [![forthebadge programming-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
