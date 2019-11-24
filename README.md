@@ -27,7 +27,8 @@
 
 
 
-## unit Test for kuka robor
+## unit Test for kuka robot
+[![Build Status](https://travis-ci.org/razainno/kuka_robot_urdf.svg?branch=Travis_Cl)](https://travis-ci.org/razainno/kuka_robot_urdf)
 
 This unit test is to  check the correctness of forward kinamatics  for kuka robot.
 
