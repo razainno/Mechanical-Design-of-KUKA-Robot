@@ -5,7 +5,7 @@
 
 [![welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://travis-ci.org/github.com/razainno/kuka_robot_urdf)   [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-[![forthebadge programming-with-python](http://ForTheBadge.com/images/badges/program-with-python.svg)](https://www.python.org/)
+
 [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 ## Quick Start to launch in gazebo 
 1)  First open the Terminal and apply this command

@@ -26,7 +26,7 @@ class JointStateCase(unittest.TestCase):
     def test_joint(self):
 
             #i don't have time so i just give the value 
-            joint_command = -0.26 # pub8 = rospy.Publisher('/Asimo_E1/joint8_position_controller/command')
+            joint_command = -0.26 # pub8 = rospy.Publisher('/kuka/joint8_position_controller/command')
             joint_value = callback # angle from call back 
 
             assert joint_command != joint_value, "The joint_command is not equal to joint_value."
