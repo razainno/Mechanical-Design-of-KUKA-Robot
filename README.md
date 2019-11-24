@@ -1,6 +1,5 @@
 
-![GitHub repo size](https://img.shields.io/https://github.com/razainno/kuka_robot_urdf/ 
-![GitHub followers](https://img.shields.io/github/razainno?tab=followers)
+![GitHub repo size](https://img.shields.io/github/repo-sizerazainno/kuka_robot_urdf/ ![GitHub followers](https://img.shields.io/github/razainno?tab=followers)
 ## Quick Start to launch in gazebo 
 1)  First open the Terminal and apply this command
         git clone https://github.com/razainno/kuka_robot_urdf.git
