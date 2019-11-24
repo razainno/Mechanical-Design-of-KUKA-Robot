@@ -1,11 +1,11 @@
 #! /usr/bin/env python
-import unittest
-import rostest
+import unittest2
+#import rostest
 import numpy as np
 from sympy import pi
 import FK_funtion
 
-class MyTestCase(unittest.TestCase):
+class MyTestCase(unittest2.TestCase):
 
     def test_fk(self):
         calculation1 = FK_funtion.fk_3link(pi/3,pi/3,pi/3)
@@ -21,5 +21,7 @@ class MyTestCase(unittest.TestCase):
         cal3 = FK_funtion.fk_3link(-pi,0.5,pi/2)
         assert (cal2).all == 0, "something wrong."
 
-if __name__ == "__main__":
-    rostest.rosrun('kuka_test', 'FK_TEST', MyTestCase )
+if __name__ == "__main__": 
+    unittest2.main()
+
+#    rostest.rosrun('kuka_test', 'FK_TEST', MyTestCase 
