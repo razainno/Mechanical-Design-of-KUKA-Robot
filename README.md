@@ -1,5 +1,7 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-sizerazainno/kuka_robot_urdf/ ![GitHub followers](https://img.shields.io/github/razainno?tab=followers)
+
+[![welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://travis-ci.org/github.com/razainno/kuka_robot_urdf)   [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ## Quick Start to launch in gazebo 
 1)  First open the Terminal and apply this command
         git clone https://github.com/razainno/kuka_robot_urdf.git
