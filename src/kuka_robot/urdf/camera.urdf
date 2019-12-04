@@ -1,5 +1,5 @@
 
-<robot name="pi_robot">
+<robot name="kuka_robot">
 <!-- * * * Link Definitions * * * -->
 
 <link name="camera">
