@@ -9,8 +9,7 @@
 
   <!-- Robot model -->
        <param name="robot_description" textfile="$(find kuka_robot)/urdf/kuka.urdf"/>
-	   <param name="robot_description" textfile="$(find kuka_robot)/urdf/camera.urdf"/>
-
+	   
 
 	<node 
 			name="spawn_robot" 
