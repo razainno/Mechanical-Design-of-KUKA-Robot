@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+build/
+devel/
+.catkin_workspace
+.vscode
+=======
 /devel 
 draft_my_readme.md
+>>>>>>> 0deb8b1d915efb0d86fb312588f9d8371153753a
 

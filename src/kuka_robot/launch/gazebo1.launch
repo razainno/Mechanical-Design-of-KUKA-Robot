@@ -3,14 +3,13 @@
 
 	<include file="$(find gazebo_ros)/launch/empty_world.launch">
 
-	<arg name="world_name" value="$(find kuka_robot)/launch/my_world.world"/>
+	<!-- <arg name="world_name" value="$(find kuka_robot)/launch/my_world.world"/> -->
 
 	</include>
 
   <!-- Robot model -->
        <param name="robot_description" textfile="$(find kuka_robot)/urdf/kuka.urdf"/>
-	
-
+	   
 
 	<node 
 			name="spawn_robot" 
